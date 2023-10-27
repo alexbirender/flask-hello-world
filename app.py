@@ -1,7 +1,7 @@
 from flask import Flask
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(".secret_npm")
 
 import os
 
